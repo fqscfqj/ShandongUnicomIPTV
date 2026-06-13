@@ -1,5 +1,4 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/e.xml"
-# 央视频道
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV-1 综合" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CCTV1.png" group-title="央视频道",CCTV1
 http://192.168.2.1:4022/udp/239.45.3.131:5140
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV-2 财经" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CCTV2.png" group-title="央视频道",CCTV2
@@ -48,8 +47,6 @@ http://192.168.2.1:4022/udp/239.45.3.167:5140
 http://192.168.2.1:4022/udp/239.45.3.168:5140
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CGTN俄语.png" group-title="央视频道",CGTN俄语
 http://192.168.2.1:4022/udp/239.45.3.169:5140
-
-# 省级卫视
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/海南卫视.png" group-title="省级卫视",海南卫视
 http://192.168.2.1:4022/udp/239.45.3.99:5140
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/重庆卫视.png" group-title="省级卫视",重庆卫视
@@ -114,8 +111,6 @@ http://192.168.2.1:4022/udp/239.45.3.70:5140
 http://192.168.2.1:4022/udp/239.45.3.89:5140
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/贵州卫视.png" group-title="省级卫视",贵州卫视
 http://192.168.2.1:4022/udp/239.45.3.76:5140
-
-# 山东频道
 #EXTINF:-1 tvg-name="山东体育" group-title="山东频道",山东体育
 http://192.168.2.1:4022/udp/239.45.3.235:5140
 #EXTINF:-1 tvg-name="山东新闻" group-title="山东频道",山东新闻
@@ -134,8 +129,6 @@ http://192.168.2.1:4022/udp/239.45.3.229:5140
 http://192.168.2.1:4022/udp/239.45.3.228:5140
 #EXTINF:-1 tvg-name="山东文旅" group-title="山东频道",山东文旅
 http://192.168.2.1:4022/udp/239.45.3.227:5140
-
-# 卫视频道
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/东方财经.png" group-title="卫视频道",东方财经
 http://192.168.2.1:4022/udp/239.45.3.241:5140
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/游戏风云.png" group-title="卫视频道",游戏风云
@@ -194,12 +187,8 @@ http://192.168.2.1:4022/udp/239.45.3.17:5140
 http://192.168.2.1:4022/udp/239.45.3.30:5140
 #EXTINF:-1 tvg-name="中学生" group-title="卫视频道",中学生
 http://192.168.2.1:4022/udp/239.45.3.242:5140
-
-# 特色频道
 #EXTINF:-1 tvg-name="老故事" group-title="特色频道",老故事
 http://192.168.2.1:4022/udp/239.45.3.243:5140
-
-# 卫视频道
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="纪实科教" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/北京纪实科教.png" group-title="卫视频道",纪实科教
 http://192.168.2.1:4022/udp/239.45.3.37:5140
 #EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/中国交通.png" group-title="卫视频道",中国交通
@@ -208,33 +197,23 @@ http://192.168.2.1:4022/udp/239.45.3.20:5140
 http://192.168.2.1:4022/udp/239.45.3.36:5140
 #EXTINF:-1 tvg-name="河南综合" group-title="卫视频道",河南综合
 http://192.168.2.1:4022/udp/239.45.3.209:5140
-
-# 卡通频道
 #EXTINF:-1 tvg-name="哈哈炫动" group-title="卡通频道",哈哈炫动
 http://192.168.2.1:4022/udp/239.45.3.196:5140
 #EXTINF:-1 tvg-name="嘉佳卡通" group-title="卡通频道",嘉佳卡通
 http://192.168.2.1:4022/udp/239.45.3.197:5140
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷动画" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/卡酷少儿.png" group-title="卡通频道",卡酷动画
 http://192.168.2.1:4022/udp/239.45.3.198:5140
-
-# 卫视频道
 #EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/动漫秀场.png" group-title="卫视频道",动漫秀场
 http://192.168.2.1:4022/udp/239.45.3.42:5140
-
-# 卡通频道
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="卡通频道",金鹰卡通
 http://192.168.2.1:4022/udp/239.45.3.200:5140
 #EXTINF:-1 tvg-name="新动漫" group-title="卡通频道",新动漫
 http://192.168.2.1:4022/udp/239.45.3.201:5140
-
-# 付费频道
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CHC家庭影院.png" group-title="付费频道",CHC家庭影院
 http://192.168.2.1:4022/udp/239.45.3.102:5140
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CHC动作电影.png" group-title="付费频道",CHC动作电影
 http://192.168.2.1:4022/udp/239.45.3.103:5140
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/logo/CHC影迷电影.png" group-title="付费频道",CHC高清电影
 http://192.168.2.1:4022/udp/239.45.3.104:5140
-
-# 电台
 #EXTINF:-1 tvg-name="山东经济广播" group-title="电台",山东经济广播
 http://192.168.2.1:4022/udp/239.45.3.250:5140
