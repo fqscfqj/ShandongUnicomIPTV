@@ -7,7 +7,7 @@
 | 文件 | 说明 |
 | --- | --- |
 | **`iptv.m3u`** | 播放列表，174 路，2026-10-12 逐条实测，全部在播 |
-| `logo/` | 5 个自制台标（见下文「台标」） |
+| `logo/` | **本列表用到的全部 174 个台标**（自包含，不依赖外部图床） |
 
 > 更早的历史版本（`iptv_github.m3u`、旧 `iptv.m3u`）已在 2026-10-12 删除，需要的话可以从 git 历史里取。
 
@@ -53,21 +53,25 @@ x-tvg-url="https://fastly.jsdelivr.net/gh/plsy1/epg@main/e/seven-days.xml.gz"
 
 ## 台标
 
-**174 / 174 都有 `tvg-logo`。**
+**174 / 174 都有台标，全部放在本仓库 `logo/` 目录**，文件名就是频道名（`tvg-logo` 指过来），不依赖任何外部图床，上游删图也不受影响。
 
-其中 169 个来自公开台标库（[fanmingming/live](https://github.com/fanmingming/live)、plsy1/iptv）。
+### 自制/整理的 5 个
 
-`logo/` 目录里的 **5 个是自制/从直播画面提取**的，因为公开台标库（已翻过 taksssss/tv、fanmingming/live、vircloud/TVLogo、akiralereal/iptv 等约 9700 个文件）**都没有这些台**：
+公开台标库（已翻过 taksssss/tv、fanmingming/live、vircloud/TVLogo、akiralereal/iptv 等约 9700 个文件）**都没有这几个台**，所以单独整理：
 
 | 文件 | 频道 | 来源 |
 | --- | --- | --- |
-| `dongying-zonghe.png` | 东营综合 | 直播画面提取（东营台台标）+ 排版 |
-| `dongying-gonggong.png` | 东营公共 | 同上 |
-| `shengli-zonghe.png` | 胜利综合 | 直播画面台标锁定图 |
-| `guangrao-xinwen.png` | 广饶新闻 | 直播画面台标锁定图 |
-| `shandong-gouwu.png` | 山东购物 | 直播画面台标锁定图（画面呼号为「居家购物」）|
+| `新闻综合.png` → 存档为 `东营综合.png` | 东营综合 | 东营台台标 |
+| `公共.png` → 存档为 `东营公共.png` | 东营公共 | 东营台台标 |
+| `胜利综合.png` | 胜利综合 | 胜利油田台 |
+| `广饶综合.png` → 存档为 `广饶新闻.png` | 广饶新闻 | 广饶县台 |
+| `居家购物.png` → 存档为 `山东购物.png` | 山东购物 | 山东广电居家购物频道 |
 
-> 这几个台是东营市台、胜利油田台、广饶县台（县级）和山东广电购物频道，属于只在本地播出、没有公开台标收集的那一类。如果哪天有了更好的官方图，直接替换 `logo/` 里的同名文件即可。
+> 这几个台是东营市台、胜利油田台、广饶县台（县级）和山东广电购物频道，属于只在本地播出、没有公开台标收集的那一类。
+
+### 另外 169 个
+
+来自公开台标库（[fanmingming/live](https://github.com/fanmingming/live)、plsy1/iptv 等），已下载归档到 `logo/`，原出处见各文件对应的频道。
 
 另注：`环球购物`（239.253.232.156）实际呼号是「聚鲨环球精选」，所以台标用的是这个名字对应的公开图。
 
@@ -80,7 +84,7 @@ x-tvg-url="https://fastly.jsdelivr.net/gh/plsy1/epg@main/e/seven-days.xml.gz"
 **2026-10-12**
 
 - 全量复检 174 路：0 失效
-- 补全 6 个缺失台标（5 个自制 + 1 个改用公开源的正确文件名）
+- 台标补全为 174 / 174，并**全部归档进本仓库** `logo/`（5 个自制 + 169 个公开库下载）
 - 给 156 条补上 `tvg-id`，节目单只保留 plsy1 单源，覆盖 156 / 174
 - 修正 `239.253.232.32` 的台名与分组
 - 文件名统一为 `iptv.m3u`，删除旧的 `iptv_github.m3u` 与旧 `iptv.m3u`
