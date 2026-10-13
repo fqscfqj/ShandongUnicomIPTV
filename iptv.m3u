@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://fastly.jsdelivr.net/gh/plsy1/epg@main/e/seven-days.xml.gz" url-tvg="https://fastly.jsdelivr.net/gh/plsy1/epg@main/e/seven-days.xml.gz"
-# 节目单：plsy1（山东联通本平台数据，162 个台），覆盖 156/174
+# 节目单：plsy1（山东联通本平台数据，162 个台），覆盖 147/164
 # 备用镜像（同一份数据）：https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz
 # 台标：全部由本仓库 logo/ 目录提供，不依赖外部图床
 
@@ -82,30 +82,12 @@ http://192.168.2.1:4022/udp/239.253.232.61:8000
 http://192.168.2.1:4022/udp/239.253.232.108:8000
 
 ############ 省级卫视 ############
-#EXTINF:-1 tvg-id="2" tvg-name="山东卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%B1%B1%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",山东卫视
-http://192.168.2.1:4022/udp/239.253.232.78:8000
-#EXTINF:-1 tvg-id="35" tvg-name="北京卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%8C%97%E4%BA%AC%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",北京卫视
-http://192.168.2.1:4022/udp/239.253.232.85:8000
-#EXTINF:-1 tvg-id="33" tvg-name="东方卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",东方卫视
-http://192.168.2.1:4022/udp/239.253.232.86:8000
-#EXTINF:-1 tvg-id="33" tvg-name="东方卫视 SD" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E4%B8%9C%E6%96%B9%E5%8D%AB%E8%A7%86SD.png" group-title="省级卫视",东方卫视 SD
-http://192.168.2.1:4022/udp/239.253.232.32:8000
-#EXTINF:-1 tvg-id="31" tvg-name="湖南卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",湖南卫视
-http://192.168.2.1:4022/udp/239.253.232.82:8000
-#EXTINF:-1 tvg-id="34" tvg-name="江苏卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B1%9F%E8%8B%8F%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",江苏卫视
-http://192.168.2.1:4022/udp/239.253.232.83:8000
-#EXTINF:-1 tvg-id="32" tvg-name="浙江卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B5%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",浙江卫视
-http://192.168.2.1:4022/udp/239.253.232.84:8000
 #EXTINF:-1 tvg-id="36" tvg-name="安徽卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%AE%89%E5%BE%BD%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",安徽卫视
 http://192.168.2.1:4022/udp/239.253.232.87:8000
 #EXTINF:-1 tvg-id="41" tvg-name="湖北卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B9%96%E5%8C%97%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",湖北卫视
 http://192.168.2.1:4022/udp/239.253.232.88:8000
 #EXTINF:-1 tvg-id="37" tvg-name="天津卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%A4%A9%E6%B4%A5%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",天津卫视
 http://192.168.2.1:4022/udp/239.253.232.89:8000
-#EXTINF:-1 tvg-id="42" tvg-name="广东卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%B9%BF%E4%B8%9C%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",广东卫视
-http://192.168.2.1:4022/udp/239.253.232.90:8000
-#EXTINF:-1 tvg-id="39" tvg-name="深圳卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B7%B1%E5%9C%B3%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",深圳卫视
-http://192.168.2.1:4022/udp/239.253.232.91:8000
 #EXTINF:-1 tvg-id="38" tvg-name="辽宁卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",辽宁卫视
 http://192.168.2.1:4022/udp/239.253.232.92:8000
 #EXTINF:-1 tvg-id="43" tvg-name="黑龙江卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E9%BB%91%E9%BE%99%E6%B1%9F%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",黑龙江卫视
@@ -132,8 +114,6 @@ http://192.168.2.1:4022/udp/239.253.232.58:8000
 http://192.168.2.1:4022/udp/239.253.232.60:8000
 #EXTINF:-1 tvg-id="59" tvg-name="甘肃卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E7%94%98%E8%82%83%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",甘肃卫视
 http://192.168.2.1:4022/udp/239.253.232.74:8000
-#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%9B%9B%E5%B7%9D%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",四川卫视
-http://192.168.2.1:4022/udp/239.253.232.180:8000
 #EXTINF:-1 tvg-id="50" tvg-name="河南卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E6%B2%B3%E5%8D%97%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",河南卫视
 http://192.168.2.1:4022/udp/239.253.232.190:8000
 #EXTINF:-1 tvg-id="53" tvg-name="吉林卫视" tvg-logo="https://raw.githubusercontent.com/fqscfqj/ShandongUnicomIPTV/main/logo/%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86.png" group-title="省级卫视",吉林卫视
